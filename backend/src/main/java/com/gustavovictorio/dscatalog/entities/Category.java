@@ -1,4 +1,4 @@
-package com.gustavovictorio.dscatalog.categories;
+package com.gustavovictorio.dscatalog.entities;
 
 import java.io.Serializable;
 import java.time.Instant;

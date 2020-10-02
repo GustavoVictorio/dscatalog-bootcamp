@@ -12,8 +12,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.gustavovictorio.dscatalog.categories.Category;
 import com.gustavovictorio.dscatalog.dto.CategoryDTO;
+import com.gustavovictorio.dscatalog.entities.Category;
 import com.gustavovictorio.dscatalog.repositories.CategoryRepository;
 import com.gustavovictorio.dscatalog.services.exceptions.DatabaseException;
 import com.gustavovictorio.dscatalog.services.exceptions.ResourceNotFoundException;
