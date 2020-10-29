@@ -17,5 +17,4 @@ export const makeRequest = ({ method = 'GET', url, data, params }: RequestParams
         data,
         params
     });
-
 }
