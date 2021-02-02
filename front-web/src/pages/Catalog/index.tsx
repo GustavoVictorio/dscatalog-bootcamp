@@ -13,8 +13,6 @@ const Catalog = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [activePage, setActivePage] = useState(0);
 
-    console.log(productsResponse);
-
     useEffect(() => {
         const params = {
             page: activePage,
@@ -43,11 +41,11 @@ const Catalog = () => {
                 )}
             </div>
             {productsResponse && (
-                <Pagination 
-                totalPages={productsResponse.totalPages}
-                activePage={activePage}
-                onChange={page => setActivePage(page)}
-                 />
+                <Pagination
+                    totalPages={productsResponse.totalPages}
+                    activePage={activePage}
+                    onChange={page => setActivePage(page)}
+                />
             )}
         </div>
     )
